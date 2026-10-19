@@ -20,10 +20,10 @@ const navigation = [
     ]
   },
   { name: 'Blog', href: '/blogs' },
+    { name: 'Merit List', href: '/merit-list' },
   { name: 'Contact', href: '/contact' },
 ]
-
-export default function Navbar() {
+  export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
   const { theme, toggleTheme } = useTheme()
