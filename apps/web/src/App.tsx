@@ -17,7 +17,7 @@ import Donate from '@/pages/Donate'
 import Gallery from '@/pages/Gallery'
 import StoryDetail from '@/pages/StoryDetail'
 import NotFound from '@/pages/NotFound'
-
+import MeritList from '@/pages/MeritList'
 // Admin pages
 import AdminLayout from '@/components/admin/AdminLayout'
 import AdminLogin from '@/pages/admin/Login'
@@ -64,7 +64,7 @@ function App() {
           <Route path="blogs/:slug" element={<BlogDetail />} />
           <Route path="contact" element={<Contact />} />
           <Route path="donate" element={<Donate />} />
-        </Route>
+        </Route>          <Route path="merit-list" element={<MeritList />} />
 
         {/* Admin routes */}
         <Route path="/admin/login" element={<AdminLogin />} />
